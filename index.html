@@ -17,78 +17,89 @@
   nav a { margin-right:16px; }
   table { border-collapse:collapse; width:100%; font-size:.95rem; }
   td, th { border:1px solid var(--bordure); padding:6px 8px; text-align:left; vertical-align:top; }
+  .tableau { overflow-x:auto; }
 </style>
 </head>
 <body>
 <main>
 <h1>Colregs Trainer</h1>
-<p class="petit">Mise à jour / Last updated: 27/09/2026 · Éditeur / Publisher: sogerg · <a href="mailto:support@sogerg.dev">support@sogerg.dev</a></p>
+<p class="petit">Mise à jour / Last updated: 13/10/2026 · Éditeur / Publisher: sogerg · <a href="mailto:sogerg.enterprise@gmail.com">sogerg.enterprise@gmail.com</a></p>
 <nav><a href="#fr">Français</a><a href="#en">English</a></nav>
 
 <section id="fr" lang="fr">
 <h2>Politique de confidentialité</h2>
-<p>Colregs Trainer est un entraîneur hors ligne aux règles de barre et de route (COLREG 72) et au balisage IALA, par répétition espacée. <strong>L'application ne collecte, ne transmet et ne vend aucune donnée personnelle.</strong></p>
+<p>Colregs Trainer est un entraîneur aux règles de barre et de route (COLREG 72) et au balisage IALA, par répétition espacée. Les révisions fonctionnent hors ligne. <strong>L'éditeur ne collecte, ne reçoit et ne vend aucune donnée personnelle.</strong> Le seul échange réseau de l'application concerne l'achat de l'accès complet, décrit ci-dessous.</p>
 
-<h3>Aucun compte, aucun serveur</h3>
-<p>Il n'y a ni inscription, ni compte, ni serveur de l'éditeur. L'application n'envoie aucune requête réseau : pas de mesure d'audience, pas de publicité, pas de traceur, pas d'outil de rapport de plantage, pas d'intelligence artificielle distante.</p>
+<h3>Aucun compte, aucun serveur de l'éditeur</h3>
+<p>Il n'y a ni inscription, ni compte, ni serveur de l'éditeur. Pas de mesure d'audience, pas de publicité, pas de traceur, pas d'outil de rapport de plantage, pas d'intelligence artificielle distante.</p>
 
-<h3>Ce qui est enregistré, et où</h3>
-<p>Uniquement sur votre téléphone :</p>
-<table>
+<h3>Ce qui est enregistré sur votre téléphone</h3>
+<div class="tableau"><table>
 <tr><th>Donnée</th><th>Pourquoi</th><th>Où</th></tr>
 <tr><td>L'état de révision de chaque carte (prochaine échéance, intervalle, dernière note)</td><td>Faire revenir chaque carte au bon moment</td><td>Stockage local de l'application</td></tr>
 <tr><td>La langue choisie</td><td>Rouvrir l'application dans votre langue</td><td>Stockage local de l'application</td></tr>
 <tr><td>La date de première ouverture et la date la plus récente vue par l'application (iPhone uniquement)</td><td>Calculer la période gratuite de 21 jours</td><td>Trousseau iOS (Keychain), avec une copie dans le stockage local</td></tr>
-</table>
-<p>Ces données ne quittent pas l'appareil par l'intermédiaire de l'application. Elles peuvent être incluses dans les sauvegardes de votre téléphone (iCloud, Google) selon vos propres réglages, comme toute donnée d'application. Le bouton « Effacer ma progression » (écran Progression) supprime l'état de révision ; désinstaller l'application supprime le stockage local. Sur iPhone, le trousseau peut conserver les deux dates de la période gratuite après une désinstallation : c'est ce qui empêche une réinstallation de relancer la période.</p>
+<tr><td>La date de première ouverture et le nombre de séances terminées</td><td>Ne proposer la fenêtre d'avis du store qu'au bon moment, et rarement</td><td>Stockage local de l'application</td></tr>
+</table></div>
+<p>Ces données ne quittent pas l'appareil par l'intermédiaire de l'application. Elles peuvent être incluses dans les sauvegardes de votre téléphone (iCloud, Google) selon vos propres réglages. Le bouton « Effacer ma progression » (écran Progression) supprime l'état de révision ; désinstaller l'application supprime le stockage local. Sur iPhone, le trousseau peut conserver les deux dates de la période gratuite après une désinstallation : c'est ce qui empêche une réinstallation de relancer la période.</p>
+
+<h3>Achats : App Store, Google Play et RevenueCat</h3>
+<p>Sur iPhone, toute l'application est ouverte pendant 21 jours à partir de la première ouverture, sans inscription ni moyen de paiement, et rien n'est facturé à la fin. Ensuite, comme sur Android, l'accès complet (abonnement mensuel ou annuel à renouvellement automatique) s'achète dans l'application.</p>
+<ul>
+<li><strong>Le paiement</strong> est traité exclusivement par l'App Store d'Apple ou par Google Play. L'éditeur ne voit jamais vos coordonnées de paiement, votre nom ni votre adresse e-mail.</li>
+<li><strong>RevenueCat</strong> (RevenueCat, Inc.), prestataire de gestion des abonnements, vérifie auprès d'Apple ou de Google si l'accès complet est actif. Pour cela, l'application lui transmet un identifiant aléatoire créé à l'installation (qui ne vous identifie pas), l'historique d'achat de cet identifiant fourni par le store, et des informations techniques (modèle et système de l'appareil, version de l'application, langue, pays du store, adresse IP de la connexion). <strong>Aucune donnée de révision n'est transmise.</strong> Voir la <a href="https://www.revenuecat.com/privacy">politique de confidentialité de RevenueCat</a>.</li>
+<li>Gérer ou résilier un abonnement se fait dans les réglages de votre compte Apple ou Google Play ; « Restaurer les achats » dans l'application retrouve un achat existant.</li>
+</ul>
 
 <h3>Permissions</h3>
-<p>L'application ne demande aucune permission : ni appareil photo, ni micro, ni localisation, ni contacts, ni photos, ni notifications, ni Face ID.</p>
-
-<h3>Achats</h3>
-<p>La version actuelle ne contient aucun achat intégré. Si un abonnement est ajouté, le paiement sera traité exclusivement par l'App Store d'Apple ou Google Play ; l'éditeur ne recevra jamais vos coordonnées de paiement, et cette page sera mise à jour avant la publication de cette version.</p>
+<p>L'application ne demande aucune permission : ni appareil photo, ni micro, ni localisation, ni contacts, ni photos, ni notifications, ni Face ID. Sur Android, l'accès à Internet et au service de facturation de Google Play sert uniquement à l'achat.</p>
 
 <h3>Enfants</h3>
-<p>L'application ne collecte aucune donnée, y compris auprès des mineurs.</p>
+<p>L'éditeur ne collecte aucune donnée, y compris auprès des mineurs.</p>
 
 <h3>Avertissement</h3>
 <p>Colregs Trainer est un outil d'entraînement. Il ne remplace ni une formation officielle ni le texte du règlement (COLREG 72 de l'Organisation maritime internationale, système de balisage de l'AISM/IALA). Les explications sont rédigées par l'éditeur et les illustrations sont calculées ; aucun texte ni aucune image de tiers n'est reproduit.</p>
 
 <h3>Contact</h3>
-<p><a href="mailto:support@sogerg.dev">support@sogerg.dev</a></p>
+<p><a href="mailto:sogerg.enterprise@gmail.com">sogerg.enterprise@gmail.com</a></p>
 </section>
 
 <section id="en" lang="en">
 <h2>Privacy policy</h2>
-<p>Colregs Trainer is an offline spaced-repetition trainer for the collision regulations (COLREG 72) and IALA buoyage. <strong>The app does not collect, transmit or sell any personal data.</strong></p>
+<p>Colregs Trainer is a spaced-repetition trainer for the collision regulations (COLREG 72) and IALA buoyage. Reviewing works offline. <strong>The publisher does not collect, receive or sell any personal data.</strong> The app's only network exchange concerns the purchase of full access, described below.</p>
 
-<h3>No account, no server</h3>
-<p>There is no sign-up, no account and no publisher server. The app makes no network requests: no analytics, no advertising, no trackers, no crash-reporting tool, no remote artificial intelligence.</p>
+<h3>No account, no publisher server</h3>
+<p>There is no sign-up, no account and no publisher server. No analytics, no advertising, no trackers, no crash-reporting tool, no remote artificial intelligence.</p>
 
-<h3>What is stored, and where</h3>
-<p>Only on your phone:</p>
-<table>
+<h3>What is stored on your phone</h3>
+<div class="tableau"><table>
 <tr><th>Data</th><th>Why</th><th>Where</th></tr>
 <tr><td>The review state of each card (next due date, interval, last grade)</td><td>To bring each card back at the right time</td><td>The app's local storage</td></tr>
 <tr><td>The language you chose</td><td>To reopen the app in your language</td><td>The app's local storage</td></tr>
 <tr><td>The date of first opening and the latest date the app has seen (iPhone only)</td><td>To compute the 21-day free period</td><td>iOS Keychain, with a copy in local storage</td></tr>
-</table>
-<p>The app never sends this data off the device. It may be included in your phone's backups (iCloud, Google) according to your own settings, like any app data. The "Erase my progress" button (Progress screen) deletes the review state; uninstalling the app deletes local storage. On iPhone, the Keychain may keep the two free-period dates after uninstalling: this is what prevents a reinstall from restarting the period.</p>
+<tr><td>The date of first opening and the number of completed sessions</td><td>To show the store's rating prompt only at the right time, and rarely</td><td>The app's local storage</td></tr>
+</table></div>
+<p>The app never sends this data off the device. It may be included in your phone's backups (iCloud, Google) according to your own settings. The "Erase my progress" button (Progress screen) deletes the review state; uninstalling the app deletes local storage. On iPhone, the Keychain may keep the two free-period dates after uninstalling: this is what prevents a reinstall from restarting the period.</p>
+
+<h3>Purchases: App Store, Google Play and RevenueCat</h3>
+<p>On iPhone, the whole app is open for 21 days from first opening, with no sign-up and no payment details, and nothing is charged when it ends. After that, as on Android, full access (an auto-renewing monthly or yearly subscription) can be bought in the app.</p>
+<ul>
+<li><strong>Payment</strong> is handled exclusively by Apple's App Store or Google Play. The publisher never sees your payment details, your name or your email address.</li>
+<li><strong>RevenueCat</strong> (RevenueCat, Inc.), a subscription-management provider, checks with Apple or Google whether full access is active. To do so, the app sends it a random identifier created at installation (which does not identify you), that identifier's purchase history as provided by the store, and technical information (device model and operating system, app version, language, store country, IP address of the connection). <strong>No review data is sent.</strong> See <a href="https://www.revenuecat.com/privacy">RevenueCat's privacy policy</a>.</li>
+<li>Subscriptions are managed or cancelled in your Apple or Google Play account settings; "Restore purchases" in the app finds an existing purchase.</li>
+</ul>
 
 <h3>Permissions</h3>
-<p>The app requests no permissions: no camera, microphone, location, contacts, photos, notifications or Face ID.</p>
-
-<h3>Purchases</h3>
-<p>The current version contains no in-app purchase. If a subscription is added, payment will be handled exclusively by Apple's App Store or Google Play; the publisher will never receive your payment details, and this page will be updated before that version is released.</p>
+<p>The app requests no permissions: no camera, microphone, location, contacts, photos, notifications or Face ID. On Android, Internet access and the Google Play billing service are used only for purchases.</p>
 
 <h3>Children</h3>
-<p>The app collects no data from anyone, minors included.</p>
+<p>The publisher collects no data from anyone, minors included.</p>
 
 <h3>Disclaimer</h3>
 <p>Colregs Trainer is a training tool. It replaces neither official instruction nor the text of the regulations (COLREG 72 of the International Maritime Organization, IALA buoyage system). The explanations are written by the publisher and the illustrations are computed; no third-party text or image is reproduced.</p>
 
 <h3>Contact</h3>
-<p><a href="mailto:support@sogerg.dev">support@sogerg.dev</a></p>
+<p><a href="mailto:sogerg.enterprise@gmail.com">sogerg.enterprise@gmail.com</a></p>
 </section>
 </main>
 </body>
